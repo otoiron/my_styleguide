@@ -1,0 +1,32 @@
+{
+  "name": "my_styleguide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@storybook/addon-actions": "^6.5.13",
+    "@storybook/addon-essentials": "^6.5.13",
+    "@storybook/addon-interactions": "^6.5.13",
+    "@storybook/addon-links": "^6.5.13",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack4": "^6.5.13",
+    "@storybook/html": "^6.5.13",
+    "@storybook/manager-webpack4": "^6.5.13",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.3.0",
+    "css-loader": "^6.7.2",
+    "sass": "^1.56.1",
+    "sass-loader": "^10.1.1",
+    "sass-resources-loader": "^2.2.5",
+    "style-loader": "^3.3.1"
+  }
+}
